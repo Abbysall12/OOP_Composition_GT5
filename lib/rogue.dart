@@ -1,6 +1,6 @@
 // lib/rogue.dart
 // Rogue part class - Member 3 implementation
-// A stealthy character specializing in sneak attacks and stealing
+// A stealthy character specializing in sneak Attacks and Stealing
 
 class Rogue {
   final String name;
