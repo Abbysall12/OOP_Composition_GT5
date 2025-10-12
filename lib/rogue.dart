@@ -7,6 +7,7 @@ class Rogue {
   int stealth;
   int agility;
   String weapon;
+  bool isEntity = true;
 
   Rogue({
     this.name = 'Shadow',
@@ -30,6 +31,10 @@ class Rogue {
   // Additional method for rest sequence
   void hide() {
     print('$name Rogue hides in the shadows and observes the surroundings');
+  }
+
+  void rest() {
+    print('$name Rogue rests by the bonfire.');
   }
 
   // Getter for stealth status
